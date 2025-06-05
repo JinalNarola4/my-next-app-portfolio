@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "@/app/components/ui/button";
 import { Card, CardContent } from "@/app/components/ui/card";
 import { Linkedin } from "lucide-react";
-
+import Image from 'next/image';
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
@@ -31,11 +31,16 @@ export default function HomePage() {
       <main className="flex flex-col-reverse items-center justify-center py-16 px-4 text-center gap-10 md:flex-row md:text-left md:items-start md:px-20">
         <Card className="shadow-xl w-full max-w-sm bg-white">
           <CardContent className="flex flex-col items-center py-10">
-            <img
+            {/* <img
               src="/profileimg.jpeg"
               alt="Profile"
               className="w-32 h-32 rounded-full mb-4 object-cover border-2 border-blue-500"
-            />
+            /> */}
+
+            <Image src="/profileimg.jpeg"
+             alt="desc"
+             className="w-32 h-32 rounded-full mb-4 object-cover border-2 border-blue-500"
+              />
 
             <h2 className="text-lg font-semibold text-gray-900">Jinal Narola</h2>
             <div className="h-0.5 w-10 bg-blue-600 my-2" />
@@ -76,17 +81,17 @@ export default function HomePage() {
       <section id="about" className="text-center py-12 px-4 sm:px-6 max-w-6xl mx-auto font-poppins">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">About Me</h2>
         <p className="text-gray-700 text-lg max-w-3xl mx-auto mb-6 leading-relaxed">
-          I'm a passionate <strong>Full Stack Developer</strong> with a knack for turning complex problems into simple, elegant digital solutions. With a solid foundation in <strong>React.js, Node.js, and MongoDB</strong>, I specialize in building scalable, responsive web applications that deliver real-world impact.
+          I&aposm a passionate <strong>Full Stack Developer</strong> with a knack for turning complex problems into simple, elegant digital solutions. With a solid foundation in <strong>React.js, Node.js, and MongoDB</strong>, I specialize in building scalable, responsive web applications that deliver real-world impact.
         </p>
         <p className="text-gray-700 text-lg max-w-3xl mx-auto mb-6 leading-relaxed">
           I enjoy working across the full stack—from crafting pixel-perfect frontends to architecting robust backend systems and APIs. I thrive in collaborative environments and believe in clean code, user-first design, and continuous learning.
         </p>
         <p className="text-gray-700 text-lg max-w-3xl mx-auto leading-relaxed">
-          Beyond the code, I'm a curious learner, enthusiastic team player, and someone who values meaningful work that helps businesses and users alike. Let's build something incredible together!
+          Beyond the code, I&aposm a curious learner, enthusiastic team player, and someone who values meaningful work that helps businesses and users alike. Let&aposs build something incredible together!
         </p>
 
         <h3 className="text-xl text-gray-800 mt-16 mb-4 font-bold">
-          Some Technologies I've Worked With
+          Some Technologies I&aposve Worked With
         </h3>
         <div className="w-full flex flex-wrap justify-center gap-6 mt-10">
           {["react", "nextdotjs", "node-dot-js", "express", "mongodb", "tailwindcss", "bootstrap", "git", "github", "firebase"].map((icon, index) => (
@@ -134,9 +139,9 @@ export default function HomePage() {
       {/* Footer */}
       <footer id="contact" className="bg-blue-950 text-white py-12 px-6 mt-20">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-4">Let's Connect</h2>
+          <h2 className="text-2xl font-bold mb-4">Let&aposs Connect</h2>
           <p className="mb-8 text-blue-200 italic">
-            “I’d love to hear from you – let’s build something great together.”
+            “I&aposd love to hear from you – let&aposs build something great together.”
           </p>
           <div className="space-y-2 text-blue-100">
             <p>
