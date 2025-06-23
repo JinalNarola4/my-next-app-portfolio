@@ -94,9 +94,6 @@ export default function HomePage() {
        <div className="w-full flex flex-wrap justify-center gap-6 mt-10 px-4">
           {[
             { name: "react", label: "React" },
-            { name: "nextdotjs", label: "Next.js" },
-            { name: "node-dot-js", label: "Node.js" },
-            { name: "express", label: "Express" },
             { name: "mongodb", label: "MongoDB" },
             { name: "tailwindcss", label: "Tailwind CSS" },
             { name: "bootstrap", label: "Bootstrap" },
@@ -124,32 +121,43 @@ export default function HomePage() {
       <section id="projects" className="text-center py-12 px-4 sm:px-6 max-w-6xl mx-auto">
         <h3 className="text-xl font-bold text-gray-800 mb-2">Projects I’ve Contributed To</h3>
         <ul className="text-gray-700 space-y-1">
-          <li>- FWG</li>
-          <li>- FGIIT</li>
+          <li>- FWG App</li>
+          <li>- FGIIT Academy App</li>
+          
         </ul>
       </section>
 
       {/* Experience Section */}
       <section id="experience" className="text-center py-12 px-4 sm:px-6 max-w-6xl mx-auto">
-        <h3 className="text-2xl font-bold text-gray-800 mb-10">Experience</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-800">
-          <div className="bg-white shadow-md rounded-xl p-6 text-left transform transition duration-300 hover:scale-105 hover:shadow-xl">
-            <h4 className="text-lg font-semibold mb-1">Full Stack Developer - Emerging Stack</h4>
-            <p className="text-sm text-gray-600 mb-3">(10-2019 to Present)</p>
-            <p className="text-gray-700">
-              Currently working as a full stack developer building scalable web applications using React.js, Node.js, and MongoDB. Handling both frontend and backend development, API integrations, and deployment pipelines. Leading code reviews and mentoring junior developers.
-            </p>
-          </div>
-
-          <div className="bg-white shadow-md rounded-xl p-6 text-left transform transition duration-300 hover:scale-105 hover:shadow-xl">
-            <h4 className="text-lg font-semibold mb-1">React JS Developer Intern - BVM Infotech</h4>
-            <p className="text-sm text-gray-600 mb-3">3 Month Internship (7-2019 to 9-2019)</p>
-            <p className="text-gray-700">
-              Worked on developing responsive user interfaces using React.js. Collaborated with senior developers to implement dynamic components and enhance app performance. Participated in daily scrums, learned Git workflows, and contributed to client projects under agile methodologies.
-            </p>
-          </div>
+      <h3 className="text-2xl font-bold text-gray-800 mb-10">Experience</h3>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-800">
+        
+        <div className="bg-white shadow-md rounded-xl p-6 text-left transform transition duration-300 hover:scale-105 hover:shadow-xl">
+          <h4 className="text-lg font-semibold mb-1">Full-stack Developer - Emerging Stacks Inc.</h4>
+          <p className="text-sm text-gray-600 mb-3">(08/2024 – Present)</p>
+          <p className="text-gray-700">
+            Crafted modern, user-centric interfaces using reusable design components that ensure consistency, responsiveness, and high performance across all devices. Each component is optimized for performance and reusability, reducing redundancy and speeding up development cycles. Integrated third-party services and internal systems using secure, scalable APIs, enabling real-time data exchange, automation, and powerful backend connectivity. Keeps users informed with instant push notifications, real-time status updates, and activity alerts, enhancing engagement and responsiveness.
+          </p>
         </div>
-      </section>
+
+        <div className="bg-white shadow-md rounded-xl p-6 text-left transform transition duration-300 hover:scale-105 hover:shadow-xl">
+          <h4 className="text-lg font-semibold mb-1">Frontend Developer - BVM Infotech</h4>
+          <p className="text-sm text-gray-600 mb-3">(02/2023 – 06/2024)</p>
+          <p className="text-gray-700">
+            Developed modern, high-performance web applications using React.js, delivering seamless user experiences with reusable components and clean architecture. Implemented responsive UI/UX using HTML5, CSS3, Tailwind CSS, and Styled-Components, ensuring accessibility across devices and browsers. Integrated APIs and third-party services to enable dynamic content, real-time updates, and automation features. Utilized React Hooks and Context API for efficient state management and modular architecture. Focused on performance optimization by implementing lazy loading, code-splitting, and minimizing render cycles. Collaborated with teams using Git, managing codebases with clean commits, reviews, and continuous integration practices. Created dashboards, landing pages, portfolios, and business websites tailored to client requirements, improving user engagement and conversions.
+          </p>
+        </div>
+
+        {/* <div className="bg-white shadow-md rounded-xl p-6 text-left transform transition duration-300 hover:scale-105 hover:shadow-xl">
+          <h4 className="text-lg font-semibold mb-1">Graduate Trainee - Axone Infotech</h4>
+          <p className="text-sm text-gray-600 mb-3">(11/2021 – 12/2022)</p>
+          <p className="text-gray-700">
+            Completed hands-on training in modern full-stack development, with a focus on frontend web and mobile technologies like React.js, React Native, and SQL databases. Gained practical experience in designing and developing responsive web and mobile applications. Worked with RESTful API integration to enable dynamic, real-time interactions across platforms. Possess a strong work ethic and demonstrated the ability to work independently or as part of a team in a fast-paced, deadline-driven environment.
+          </p>
+        </div> */}
+
+      </div>
+    </section>
 
       {/* Footer */}
       <footer id="contact" className="bg-blue-950 text-white py-12 px-4 sm:px-6 mt-20">
