@@ -81,7 +81,7 @@ export default function HomePage() {
       <section id="about" className="text-center py-12 px-4 sm:px-6 max-w-6xl mx-auto">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">About Me</h2>
         <p className="text-gray-700 text-lg max-w-3xl mx-auto mb-6 leading-relaxed">
-          I am a passionate <strong>Full Stack Developer</strong> with a knack for turning complex problems into simple, elegant digital solutions. With a solid foundation in <strong>React.js, Node.js, and MongoDB</strong>, I specialize in building scalable, responsive web applications that deliver real-world impact.
+          I am a passionate <strong>Full Stack Developer</strong> with a knack for turning complex problems into simple, elegant digital solutions. With a solid foundation in <strong>React.js, React Native, SQL and MongoDB</strong>, I specialize in building scalable, responsive web applications that deliver real-world impact.
         </p>
         <p className="text-gray-700 text-lg max-w-3xl mx-auto mb-6 leading-relaxed">
           I enjoy working across the full stack—from crafting pixel-perfect frontends to architecting robust backend systems and APIs. I thrive in collaborative environments and believe in clean code, user-first design, and continuous learning.
